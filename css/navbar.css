@@ -25,4 +25,11 @@ ul.topnav {
   @media screen and (max-width: 600px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+    ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 25px;
+        text-decoration: none;
+      }
   }

@@ -53,8 +53,7 @@ body{
     }
     .main img
     {
-        margin-left: 50%;
-        padding: 0px 20px; 
+        float: none; 
     }
     .container{
         position: relative;

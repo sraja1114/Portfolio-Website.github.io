@@ -46,11 +46,6 @@ body{
 }
 
 @media (max-width: 600px) {
-  
-    .main {
-      padding: 0;
-      width: 100%;
-    }
     .main img
     {
         float: none; 

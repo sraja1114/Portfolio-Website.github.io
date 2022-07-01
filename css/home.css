@@ -18,7 +18,7 @@ body{
 
 .container {
     margin: 0 auto;
-    max-width: 968px;
+    max-width: 950px;
     padding: 0 10px;
     position: relative;
     align-items: center;
@@ -38,19 +38,19 @@ body{
     background: rgb(80, 0, 0);
     padding: 10px 30px;
     text-decoration: none;
-    transition: background .5s;
+    
     
 }
 
 @media (max-width: 600px) {
   
     .main {
-      padding: 0 30px;
+      padding: 0;
       width: 100%;
     }
   
     .img {
-        width: 100%;
+        margin-left: auto;
     }
 }
 

@@ -3,3 +3,57 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 968px;
+    padding: 0 10px;
+    position: relative;
+    align-items: center;
+}
+
+.main .container {
+    margin: 80px auto;
+  }
+  
+.main img {
+    float: left;
+    margin: -70px 80px 50px;
+}
+
+.resbutton {
+    color: rgb(255, 255, 255);
+    background: rgb(80, 0, 0);
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: background .5s;
+    
+}
+
+@media (max-width: 600px) {
+  
+    .main {
+      padding: 0 30px;
+      width: 100%;
+    }
+  
+    .img {
+        width: 100%;
+    }
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

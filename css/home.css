@@ -48,7 +48,7 @@ body{
 @media (max-width: 600px) {
 
     .main .container {
-        margin: 80px auto;
+        margin: 50px auto;
     }
     .main img {
         float: none;
@@ -57,7 +57,7 @@ body{
     .container {
         margin: 0 auto;
         max-width: 600px;
-        padding: 0 10px;
+        padding: 0 0px;
         position: relative;
         align-items: center;
     }

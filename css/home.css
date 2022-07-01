@@ -51,9 +51,11 @@ body{
       padding: 0;
       width: 100%;
     }
-    .img[href="tamu"]{
-        align-self: center;
+    .main img
+    {
+        margin: 0px 0px 0px;   
     }
+
     .container{
         position: relative;
         align-items: center;

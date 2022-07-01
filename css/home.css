@@ -53,9 +53,10 @@ body{
     }
     .main img
     {
-        margin: 0px 0px 0px;   
+        margin: 0px 0px 0px 30px;
+        width: 400;
+        height: 400;   
     }
-
     .container{
         position: relative;
         align-items: center;

@@ -53,6 +53,7 @@ body{
     }
     .main img
     {
+        position: relative;
         padding: 0px 20px; 
     }
     .container{

@@ -49,8 +49,8 @@ body{
       width: 100%;
     }
   
-    .img {
-        margin-left: auto;
+    .container{
+        align-items: center;
     }
 }
 

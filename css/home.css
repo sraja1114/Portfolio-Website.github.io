@@ -56,7 +56,7 @@ body{
     }
     .container {
         margin: 0 auto;
-        max-width: 950px;
+        max-width: 600px;
         padding: 0 10px;
         position: relative;
         align-items: center;

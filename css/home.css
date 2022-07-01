@@ -46,9 +46,11 @@ body{
 }
 
 @media (max-width: 600px) {
+
     .main img
     {
-        float: none; 
+        float: none;
+        margin: 0px 0px 0px 0px;
     }
     .container{
         position: relative;

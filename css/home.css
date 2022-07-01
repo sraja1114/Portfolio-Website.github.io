@@ -51,8 +51,7 @@ body{
         margin: 50px auto;
     }
     .main img {
-        float: none;
-        vertical-align: middle;
+        float: unset;
     }
     .container {
         margin: 0 auto;

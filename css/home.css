@@ -1,10 +1,11 @@
 :root {
     --real100vh: 91.2vh;
+    --real100vw: 99vw
 }
 
 .homepic{
     display: flex;
-    width: 99vw;
+    width: var(--real100vw);
     height: var(--real100vh);
     object-fit: cover;
 }

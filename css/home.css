@@ -122,6 +122,10 @@ body{
 }
 
 @media (max-width: 600px) {
+    .homepic
+    {
+        height: var(--real100vh);
+    }
     .main img {
         float: unset;
         width: 200px;

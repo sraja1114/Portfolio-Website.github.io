@@ -1,6 +1,11 @@
+:root {
+    --real100vh: 91.2vh;
+}
+
 .homepic{
     display: flex;
-    width: 100%;
+    width: 99.35vw;
+    height: var(--real100vh);
     object-fit: cover;
 }
 

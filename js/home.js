@@ -38,8 +38,8 @@ set100vhVar();
 function set100vwVar(){
   // If less than most tablets, set CSS var to window height.
   let value = "99vw";
-
-  //Subtract the height of the navbar from the inner window height.
+ 
+  //sets width based on navbar width
   var navbarWidth = document.getElementById('navbar').clientWidth;
   value = navbarWidth.toString() + `px`;
   document.documentElement.style.setProperty("--real100vw", value);

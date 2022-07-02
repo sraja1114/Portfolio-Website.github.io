@@ -138,6 +138,9 @@ body{
         top: 88%;
         left: 39%;
     }
+    .arrow:hover{
+        filter: brightness(100%);
+    }
 }
 
 .title{

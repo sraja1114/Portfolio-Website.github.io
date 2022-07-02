@@ -135,8 +135,8 @@ body{
         position: relative;
     }
     .arrow{
-        top: 88%;
-        left: 39%;
+        top: 85%;
+        left: 38%;
     }
     .arrow:hover{
         filter: brightness(100%);

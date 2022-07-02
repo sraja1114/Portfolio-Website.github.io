@@ -4,7 +4,7 @@
 
 .homepic{
     display: flex;
-    width: 99.34vw;
+    width: 99vw;
     height: var(--real100vh);
     object-fit: cover;
 }

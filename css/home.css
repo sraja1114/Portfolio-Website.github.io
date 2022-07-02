@@ -135,6 +135,7 @@ body{
         position: relative;
     }
     .arrow{
+        top: 88%;
         left: 39%;
     }
 }

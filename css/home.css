@@ -4,7 +4,7 @@
 
 .homepic{
     display: flex;
-    width: 99.35vw;
+    width: 99.45vw;
     height: var(--real100vh);
     object-fit: cover;
 }
@@ -134,18 +134,7 @@ body{
         max-width: 600px;
         position: relative;
     }
-    .centeredArrow{
-        opacity: 0;
-    }
-}
 
-@media (max-width: 2150px) {
-    .centeredArrow{
-        opacity: 0;
-    }
-    .centeredArrow:hover{
-        opacity: 0;
-    }
 }
 
 .title{

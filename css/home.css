@@ -134,11 +134,7 @@ body{
         max-width: 600px;
         position: relative;
     }
-
-}
-
-@media (max-width: 2150px) {
-    .centeredArrow{
+    .arrow{
         left: 40%;
     }
 }

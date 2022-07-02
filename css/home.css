@@ -126,6 +126,7 @@ body{
     .homepic
     {
         height: var(--real100vh);
+        width: var(--real100vw);
     }
     .main img {
         float: unset;

@@ -1,9 +1,28 @@
-function scrolltoInfo() {
-    $("#downArrow").click(function() {console.log("clicked");
-        $('html,body').animate({
-            scrollTop: $("#info").offset().top}, 400, 'linear');
-    });
-}
+var $hb = $('html, body');  
+$('#downArrow').click(function() {
+  $hb.animate({ 
+      scrollTop: $("#info").offset().top // set scrollTarget to your desired position
+  }, 400, "linear");
+});
+
+  // Stop the animation if the user scrolls. Defaults on .stop() should be fine
+$hb.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
+  if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
+      $hb.stop().unbind('scroll mousedown DOMMouseScroll mousewheel keyup'); // This identifies the scroll as a user action, stops the animation, then unbinds the event straight after (optional)
+  }
+}); 
+
+$(document).ready(function() {
+  
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 200) {
+        $('.arrow').addClass('fade');
+      } else{
+        $('.arrow').removeClass('fade');
+      }
+    })
+  });
 
 $(document).ready(function() {
   

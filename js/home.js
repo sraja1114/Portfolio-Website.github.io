@@ -39,7 +39,7 @@ $(document).ready(function() {
 
 function set100vhVar(){
   // If less than most tablets, set CSS var to window height.
-  let value = "94.5vh";
+  let value = "96.5vh";
 
   // If window size is iPad or smaller, then use JS to set screen height.
   if (window.innerWidth && window.innerWidth <= 1024) { window.outer
@@ -56,7 +56,7 @@ set100vhVar();
 
 function set100vwVar(){
   // If less than most tablets, set CSS var to window height.
-  let value = "99vw";
+  let value = "100vw";
  
   //sets width based on navbar width
   var navbarWidth = document.getElementById('navbar').clientWidth;
@@ -64,3 +64,4 @@ function set100vwVar(){
   document.documentElement.style.setProperty("--real100vw", value);
 }
 window.onresize = set100vwVar;
+window.onload = set100vwVar;

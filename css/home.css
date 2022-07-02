@@ -137,6 +137,12 @@ body{
 
 }
 
+@media (max-width: 2150px) {
+    .centeredArrow{
+        left: 40%;
+    }
+}
+
 .title{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

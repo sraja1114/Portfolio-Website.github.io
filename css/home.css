@@ -104,6 +104,7 @@ body {
 .main {
   text-align: center;
   margin: 0px 0px 80px 0px;
+  /*outline: auto;*/
 }
 
 .container {
@@ -162,7 +163,7 @@ body {
     filter: brightness(100%);
   }
   .main{
-    margin: -50px 0px 0px 0px;
+    margin: 0px 0px 80px 0px;
   }
 }
 

@@ -1,154 +1,168 @@
 :root {
-    --real100vh: 91.2vh;
-    --real100vw: 99.3vw
+  --real100vh: 91.2vh;
+  --real100vw: 99.3vw;
 }
 
-.homepic{
-    display: flex;
-    width: var(--real100vw);
-    height: var(--real100vh);
-    object-fit: cover;
+.homepic {
+  display: flex;
+  width: var(--real100vw);
+  height: var(--real100vh);
+  object-fit: cover;
 }
 
-.arrow{
-    position: absolute;
-    top: 90%;
-    left: 48%;
-    transform: translate(-50%, -50%)
+.arrow {
+  position: absolute;
+  top: 90%;
+  left: 48%;
+  transform: translate(-50%, -50%);
 }
 
-.arrow:hover{
-    filter: brightness(0%);
+.arrow:hover {
+  filter: brightness(0%);
 }
 
 @-moz-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -moz-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -moz-transform: translateY(-30px);
-      transform: translateY(-30px);
-    }
-    60% {
-      -moz-transform: translateY(-15px);
-      transform: translateY(-15px);
-    }
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
 }
-  @-webkit-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -webkit-transform: translateY(-30px);
-      transform: translateY(-30px);
-    }
-    60% {
-      -webkit-transform: translateY(-15px);
-      transform: translateY(-15px);
-    }
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
 }
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -moz-transform: translateY(-30px);
-      -ms-transform: translateY(-30px);
-      -webkit-transform: translateY(-30px);
-      transform: translateY(-30px);
-    }
-    60% {
-      -moz-transform: translateY(-15px);
-      -ms-transform: translateY(-15px);
-      -webkit-transform: translateY(-15px);
-      transform: translateY(-15px);
-    }
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
 }
 
 .bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 
 .fade {
-    opacity:0;
-    transition: 0.4s all ease-out;
+  opacity: 0;
+  transition: 0.4s all ease-out;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: medium;
-    font-weight: 100;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
 }
 
-.main{
-    text-align: center;
+.main {
+  text-align: center;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 950px;
-    padding: 0 10px;
-    position: relative;
-    align-items: center;
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 0 10px;
+  position: relative;
+  align-items: center;
 }
 
 .main .container {
-    margin: 80px auto;
-  }
-  
+  margin: 80px auto;
+}
+
 .main img {
-    float: left;
-    margin: -20px 80px 50px;
+  float: left;
+  margin: -20px 80px 50px;
 }
 
 .resumebutton {
-    color: rgb(255, 255, 255);
-    background: rgb(80, 0, 0);
-    padding: 10px 30px;
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: rgb(80, 0, 0);
+  padding: 10px 30px;
+  text-decoration: none;
 }
 
 .resumebutton:hover {
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 
 @media (max-width: 600px) {
-    .homepic
-    {
-        height: var(--real100vh);
-        width: var(--real100vw);
-    }
-    .main img {
-        float: unset;
-        width: 200px;
-        height: 200px;
-    }
-    p{
-        font-size: 13px;
-    }
-    .container {
-        max-width: 600px;
-        position: relative;
-    }
-    .arrow{
-        top: 85%;
-        left: 37%;
-    }
-    .arrow:hover{
-        filter: brightness(100%);
-    }
+  .homepic {
+    height: var(--real100vh);
+    width: var(--real100vw);
+  }
+  .main img {
+    float: unset;
+    width: 250px;
+    height: 250px;
+    margin: -80px 80px 50px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 600px;
+    position: relative;
+    
+  }
+  .arrow {
+    top: 85%;
+    left: 37%;
+  }
+  .arrow:hover {
+    filter: brightness(100%);
+  }
 }
 
-.title{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }

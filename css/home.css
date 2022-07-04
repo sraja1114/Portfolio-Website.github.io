@@ -102,8 +102,9 @@ body {
 }
 
 hr{
-  clear: both;
-  visibility: hidden;
+  height: 1px;
+  background-color: white;
+  border: none;
 }
 
 .main {

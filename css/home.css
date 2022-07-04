@@ -162,11 +162,10 @@ body {
     filter: brightness(100%);
   }
   .main .container {
-    margin: 50px auto;
+    margin: 80px auto;
   }
 }
 
 .title {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Lato", sans-serif;
 }

@@ -2,10 +2,10 @@ var $hb = $('html, body');
 $('#downArrow').click(function() {
   $hb.animate({ 
       scrollTop: $("#info").offset().top // set scrollTarget to your desired position
-  }, 700);
+  }, 400, "linear");
 });
 
-console.log("change")
+console.log("change2")
 
   // Stop the animation if the user scrolls. Defaults on .stop() should be fine
 $hb.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){

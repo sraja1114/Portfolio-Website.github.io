@@ -141,9 +141,10 @@ body {
   }
   .main img {
     float: unset;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     margin: -80px 0px 50px;
+    padding-left: 0;
   }
   p {
     font-size: 13px;

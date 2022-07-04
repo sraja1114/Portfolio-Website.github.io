@@ -1,5 +1,8 @@
 body{
     background-image: url("/img/background.jpg");
+    background-position-x: 0px;
+    background-size: 100%;
+
 }
 
 .title{
@@ -62,5 +65,8 @@ b{
     #portrait {
         float: none;
         position: relative;
+    }
+    body{
+        background-size: 280%;
     }
 }

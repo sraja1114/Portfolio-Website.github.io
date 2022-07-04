@@ -1,6 +1,7 @@
 body{
-    background-image: linear-gradient(to right, rgb(194, 194, 194), rgb(234, 234, 234));
+    background-image: linear-gradient(to right, rgb(194, 194, 194), rgb(223, 221, 221));
 }
+
 .title{
     text-align: center;
     font-size: 32px;

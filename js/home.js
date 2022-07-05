@@ -12,7 +12,7 @@ $("#downArrow").click(function () {
   } else {
     $hb.animate(
       {
-        scrollTop: $(".tamu").offset().top, // set scrollTarget to your desired position
+        scrollTop: $(".tamu").offset().top + 10, // set scrollTarget to your desired position
       },
       400,
       "linear"
@@ -21,7 +21,7 @@ $("#downArrow").click(function () {
   }
 });
 
-console.log("change8");
+console.log("change9");
 
 // Stop the animation if the user scrolls. Defaults on .stop() should be fine
 $hb.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {

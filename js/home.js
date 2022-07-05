@@ -12,7 +12,7 @@ $("#downArrow").click(function () {
   } else {
     $hb.animate(
       {
-        scrollTop: $(".tamu").offset().top + 100, // set scrollTarget to your desired position
+        scrollTop: $(".tamu").offset().top + 200, // set scrollTarget to your desired position
       },
       400,
       "linear"

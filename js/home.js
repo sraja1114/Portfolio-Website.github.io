@@ -8,7 +8,6 @@ $("#downArrow").click(function () {
       400,
       "linear"
     );
-    console.log("desktop");
   } else {
     $hb.animate(
       {
@@ -17,11 +16,8 @@ $("#downArrow").click(function () {
       400,
       "linear"
     );
-    console.log("mobile");
   }
 });
-
-console.log("change23");
 
 // Stop the animation if the user scrolls. Defaults on .stop() should be fine
 $hb.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {

@@ -21,7 +21,7 @@ $("#downArrow").click(function () {
   }
 });
 
-console.log("change14");
+console.log("change15");
 
 // Stop the animation if the user scrolls. Defaults on .stop() should be fine
 $hb.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function (e) {

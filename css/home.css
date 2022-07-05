@@ -8,7 +8,7 @@
   width: var(--real100vw);
   height: var(--real100vh);
   object-fit: cover;
-  filter: drop-shadow(0px 0px 8px black)
+  filter: drop-shadow(10px 0px 8px black);
 }
 
 .arrow {
@@ -105,7 +105,6 @@ body {
 .main {
   text-align: center;
   margin: 0px 0px 80px 0px;
-  /*outline: auto;*/
 }
 
 .container {
@@ -154,7 +153,6 @@ body {
   .container {
     max-width: 600px;
     position: relative;
-    
   }
   .arrow {
     top: 85%;
@@ -163,7 +161,7 @@ body {
   .arrow:hover {
     filter: brightness(100%);
   }
-  .main{
+  .main {
     margin: 0px 0px 30px 0px;
   }
 }

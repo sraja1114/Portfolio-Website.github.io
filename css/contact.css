@@ -1,5 +1,5 @@
 body {
-  background-image: radial-gradient(circle, rgb(16, 16, 16), rgb(25, 24, 24), rgb(28, 27, 27));
+  background-image: radial-gradient(circle, rgb(62, 62, 62) 20%, rgb(52, 52, 52) 20%, rgb(32, 32, 32) 30%);
 }
 
 .title {
@@ -7,7 +7,6 @@ body {
   font-size: 32px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  text-decoration: underline;
   color: rgb(42, 40, 40);
 }
 
@@ -17,7 +16,7 @@ body {
 }
 
 .text {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: medium;
   font-weight: 100;
   margin: 20px 0px 0px 0px;
@@ -48,7 +47,6 @@ b {
   position: relative;
   outline: 3px;
   outline-style: ridge;
-  border-radius: 4px;
 }
 
 @media (max-width: 600px) {

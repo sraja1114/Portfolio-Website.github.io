@@ -12,7 +12,7 @@ $("#downArrow").click(function () {
   } else {
     $hb.animate(
       {
-        scrollTop: 650, // set scrollTarget to your desired position
+        scrollTop: 655, // set scrollTarget to your desired position
       },
       400,
       "linear"

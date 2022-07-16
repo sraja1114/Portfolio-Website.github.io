@@ -12,7 +12,6 @@ h2 {
 
 #project1 {
   background-color: rgb(255, 255, 255);
-  filter: drop-shadow(7px 4px 2px black);
 }
 
 .container1 {
@@ -37,14 +36,13 @@ h2 {
 #project2 {
   background-color: rgb(53, 49, 49);
   color: white;
-  filter: drop-shadow(7px 4px 5px black);
 }
 
 .container2 {
   margin: 0 auto;
   max-width: 1700px;
   height: 0px;
-  padding: 100px 0px 500px;
+  padding: 180px 0px 500px;
   position: relative;
 }
 
@@ -56,7 +54,8 @@ h2 {
 
 .main2 img {
   float: left;
-  margin: -170px 40px 0px 0px;
+  margin: -100px 40px 0px 0px;
+  padding: 20px;
 }
 
 #project3 {
@@ -79,12 +78,13 @@ h2 {
 
 .main3 img {
   float: left;
-  margin: -250px 70px 0px 0px;
+  margin: -250px 80px 0px 0px;
 }
 
 @media (max-width: 1278px) {
   .videos {
     width: var(--real100vw);
+    height: auto;
     float: unset;
   }
 
@@ -96,12 +96,15 @@ h2 {
   .container1 {
     padding: 100px 0px 600px;
   }
+  .container2 {
+    padding: 150px 0px 600px;
+  }
   .container3 {
-    padding: 100px 0px 900px;
+    padding: 100px 0px 400px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1150px) {
   .videos {
     width: var(--real100vw);
   }
@@ -114,18 +117,18 @@ h2 {
     float: unset;
   }
   .main1 video {
-    float: left;
-    margin: -280px 20px 0px 0px;
+    float: unset;
+    margin: -280px 0px 0px 0px;
   }
 
   .container1 {
-    padding: 100px 0px 600px;
+    padding: 150px 0px 300px;
   }
 
   .container2 {
     padding: 100px 0px 300px;
   }
   .container3 {
-    padding: 100px 0px 300px;
+    padding: 0px 0px 300px;
   }
 }

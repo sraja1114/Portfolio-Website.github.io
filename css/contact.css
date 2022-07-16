@@ -1,5 +1,10 @@
 body {
-  background-image: radial-gradient(circle, rgb(62, 62, 62) 20%, rgb(52, 52, 52) 20%, rgb(32, 32, 32) 30%);
+  background-image: radial-gradient(
+    circle,
+    rgb(62, 62, 62) 20%,
+    rgb(52, 52, 52) 20%,
+    rgb(32, 32, 32) 30%
+  );
 }
 
 .title {
@@ -13,6 +18,10 @@ body {
 #logos {
   text-align: center;
   margin-top: 15px;
+}
+
+.logosImg:hover {
+  filter: drop-shadow(2px 1px 8px rgba(53, 47, 47, 0.5));
 }
 
 .text {

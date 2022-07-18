@@ -3,7 +3,8 @@ function set100vwVar() {
     let value = "100vw";
   
     //sets width based on navbar width
-    var navbarWidth = document.getElementById("navbar").clientWidth;
+    var navbarWidth = document.getElementById("text").clientWidth;
+    
     value = navbarWidth.toString() + `px`;
     document.documentElement.style.setProperty("--real100vw", value);
   }

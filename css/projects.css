@@ -129,11 +129,40 @@ h2 {
     padding: 0px 20px 400px;
   }
   .container3 {
-    padding: 0px 20px 700px;
+    padding: 0px 20px 750px;
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
+  .videos {
+    width: var(--real100vw);
+  }
+
+  img {
+    width: var(--real100vw);
+    float: unset;
+  }
+  .main1 img {
+    float: unset;
+  }
+  .main1 video {
+    float: unset;
+    margin: -280px 0px 0px 0px;
+  }
+
+  .container1 {
+    padding: 150px 20px 300px;
+  }
+
+  .container2 {
+    padding: 0px 20px 350px;
+  }
+  .container3 {
+    padding: 0px 20px 500px;
+  }
+}
+
+@media (max-width: 800px) {
   .videos {
     width: var(--real100vw);
   }

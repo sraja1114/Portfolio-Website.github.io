@@ -1,0 +1,105 @@
+.main {
+  background-color: rgb(51, 46, 46);
+  color: rgb(255, 255, 255);
+  padding: 100px 0px 110px;
+}
+
+.main1 {
+  background-color: rgb(51, 46, 46);
+  color: rgb(255, 255, 255);
+  padding: 0px 0px 80px;
+}
+
+.main2 {
+  background-color: rgb(51, 46, 46);
+  color: rgb(255, 255, 255);
+  padding: 0px 0px 110px;
+  
+}
+
+.main3 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 100px 0px 110px;
+  filter: drop-shadow(10px 0px 8px rgb(0, 0, 0));
+}
+
+em {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0 10px;
+  position: relative;
+}
+
+.main3 .container {
+  margin: 0px auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.desc{
+    margin: 0px 0px 30px;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  background: rgb(80, 0, 0);
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+
+#info {
+  float: right;
+  margin: -35px 0px 0px 0px;
+}
+
+@media (max-width: 780px) {
+    .main .container{
+        text-align: center;
+    }
+    .main1 .container{
+        text-align: center;
+    }
+    .main2 .container{
+        text-align: center;
+    }
+    .main3 .container{
+        max-width: 550px;
+    }
+
+    ul{
+        text-align: left;
+    }
+
+    #info {
+    float: none;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+  }
+  .main {
+    padding: 70px 0px 30px;
+  }
+  .main1 {
+    padding: 0px 0px 30px;
+  }
+  
+  .main2 {
+    padding: 0px 0px 110px;
+  }
+}
+
+@media (max-width: 600px) {
+    .main3 .container{
+        max-width: 450px;
+    }
+}

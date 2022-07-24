@@ -14,7 +14,6 @@
   background-color: rgb(51, 46, 46);
   color: rgb(255, 255, 255);
   padding: 0px 0px 110px;
-  
 }
 
 .main3 {
@@ -42,8 +41,8 @@ em {
   text-align: center;
 }
 
-.desc{
-    margin: 0px 0px 30px;
+.desc {
+  margin: 0px 0px 30px;
 }
 
 .button {
@@ -64,24 +63,32 @@ em {
 }
 
 @media (max-width: 780px) {
-    .main .container{
-        text-align: center;
-    }
-    .main1 .container{
-        text-align: center;
-    }
-    .main2 .container{
-        text-align: center;
-    }
-    .main3 .container{
-        max-width: 550px;
-    }
+  .main .container {
+    text-align: center;
+  }
+  .main1 .container {
+    text-align: center;
+  }
+  .main2 .container {
+    text-align: left;
+  }
+  .main3 .container {
+    max-width: 550px;
+  }
 
-    ul{
-        text-align: left;
-    }
+  h1{
+    text-align: left;
+  }
 
-    #info {
+  .edtext{
+    text-align: right;
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  #info {
     float: none;
     margin: 0px 0px 0px 0px;
     text-align: center;
@@ -92,14 +99,18 @@ em {
   .main1 {
     padding: 0px 0px 30px;
   }
-  
+
   .main2 {
     padding: 0px 0px 110px;
   }
 }
 
 @media (max-width: 600px) {
-    .main3 .container{
-        max-width: 450px;
-    }
+  .main3 .container {
+    max-width: 450px;
+  }
+
+  .skills{
+    font-size: 18px;
+  }
 }

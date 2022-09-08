@@ -135,6 +135,13 @@ body {
   background: rgb(0, 0, 0);
 }
 
+@media (max-width: 1550px) {
+  .arrow {
+    top: 85%;
+    left: 47%;
+  }
+}
+
 @media (max-width: 600px) {
   .homepic {
     height: var(--real100vh);

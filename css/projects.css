@@ -86,9 +86,25 @@ h2 {
   margin: -250px 80px 0px 0px;
 }
 
+@media (max-width: 1720px) {
+
+  .videos{
+    width: 1100px;
+    padding-left: 40px;
+  }
+
+  .mt{
+    margin-top: -47px;
+  }
+  .text{
+    padding-right: 30px;
+  }
+}
+
 @media (max-width: 1400px) {
   .videos {
     width: var(--real100vw);
+    padding-left: unset;
     height: auto;
     float: unset;
   }
@@ -96,6 +112,13 @@ h2 {
   .seam {
     width: var(--real100vw);
     float: unset;
+  }
+
+  .mt{
+    margin-top: unset;
+  }
+  .text{
+    padding-right: unset;
   }
 
   .container1 {

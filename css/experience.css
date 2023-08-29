@@ -48,12 +48,14 @@ em {
 .button {
   color: rgb(255, 255, 255);
   background: rgb(80, 0, 0);
-  padding: 10px 25px;
+  padding: 13px 25px;
+  border-radius: 25px;
   text-decoration: none;
 }
 
 .button:hover {
   color: rgb(255, 255, 255);
+  text-decoration: none;
   background: rgb(0, 0, 0);
 }
 

@@ -6,17 +6,17 @@ h2 {
   color: rgb(42, 35, 35);
 }
 
-#white {
+.white-text {
   color: white;
 }
 
-#project0 {
+.project-light {
+  background-color: rgb(255, 255, 255);
+}
+
+.project-dark {
   background-color: rgb(53, 49, 49);
   color: white;
-}
-
-#project1 {
-  background-color: rgb(255, 255, 255);
 }
 
 .container1 {
@@ -36,11 +36,6 @@ h2 {
 .main1 video {
   float: left;
   margin: -170px 40px 0px 0px;
-}
-
-#project2 {
-  background-color: rgb(53, 49, 49);
-  color: white;
 }
 
 .container2 {
@@ -63,10 +58,6 @@ h2 {
   padding: 20px;
 }
 
-#project3 {
-  background-color: rgb(255, 255, 255);
-}
-
 .container3 {
   margin: 0 auto;
   max-width: 1400px;
@@ -87,16 +78,15 @@ h2 {
 }
 
 @media (max-width: 1720px) {
-
-  .videos{
+  .videos {
     width: 1100px;
     padding-left: 40px;
   }
 
-  .mt{
+  .mt {
     margin-top: -47px;
   }
-  .text{
+  .text {
     padding-right: 30px;
   }
 }
@@ -114,10 +104,10 @@ h2 {
     float: unset;
   }
 
-  .mt{
+  .mt {
     margin-top: unset;
   }
-  .text{
+  .text {
     padding-right: unset;
   }
 

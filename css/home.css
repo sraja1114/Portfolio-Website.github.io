@@ -137,6 +137,10 @@ body {
   background: rgb(0, 0, 0);
 }
 
+.title {
+  font-family: "Lato", sans-serif;
+}
+
 @media (max-width: 1550px) {
   .arrow {
     top: 85%;
@@ -173,12 +177,12 @@ body {
   .main {
     margin: 0px 0px 30px 0px;
   }
+  .resumebutton{
+    padding: 13px 25px;
+  }
+
   .resumebutton:hover {
     color: rgb(255, 255, 255);
     background: rgb(80, 0, 0);
   }
-}
-
-.title {
-  font-family: "Lato", sans-serif;
 }

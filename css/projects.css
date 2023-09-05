@@ -91,6 +91,12 @@ h2 {
   }
 }
 
+@media (max-width: 1520px) {
+  .videos{
+    width: 1000px;
+  }
+}
+
 @media (max-width: 1400px) {
   .videos {
     width: var(--real100vw);
@@ -172,7 +178,7 @@ h2 {
     padding: 0px 20px 350px;
   }
   .container3 {
-    padding: 0px 20px 500px;
+    padding: 0px 20px 650px;
   }
 }
 
@@ -199,6 +205,6 @@ h2 {
     padding: 0px 20px 350px;
   }
   .container3 {
-    padding: 0px 20px 320px;
+    padding: 0px 20px 410px;
   }
 }
